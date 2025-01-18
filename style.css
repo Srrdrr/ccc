@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.body{
+    background-color: black;
+}
+.header{
+    margin: 0 auto;
+    width: 1273px;
+    background-color: #272C3D;
+}
+.nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    
+
+}
+.header_content{
+    background-image: url(img/Bg.png);
+    width: 1273px;
+    height: 554px;
+}
+.nav ul{
+    display: flex;
+    gap: 26px;
+    align-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+.nav ul li{
+    color: #FFFFFF;
+    align-content: center;
+    align-items: center;
+}
+.nav ul li:hover{
+    color: #FF9C28;
+    transition: all 1s;
+}
+.input{
+    background-color: gray;
+    border-radius: 5px;
+    width: 241px;
+    height: 30px;
+    margin-right: 100px;
+    background-image: url(img/search_glass\ 1.png);
+    background-repeat: no-repeat;
+    background-position: 95% 55%;
+    margin-left: 350px;
+}
+.nav  select{
+    width: 166px;
+    height: 30px;
+    border-radius: 5px;  
+    background-color: #00000080;
+    margin-right: 90px;
+}
+.nav  select option{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.02px; 
+    color: white;  
+}
+.section{
+    width: 1273px;
+    margin: auto;
+    background-color: black;
+}
+.div_1{
+    width: 1273px;
+    height: 399px; 
+     
+}
+.div_1 h1{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 45.76px; 
+    color: white;  
+    padding-top: 45px;
+    padding-left: 538px;
+}
+.img{
+    margin-left: 143px;
+}
+.div_2{
+  width: 740px;
+  margin: 0 auto;
+}
+.h2{
+    color: beige;
+}
+.ddd{
+    width: 740px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.text{
+    width: 323px;
+    color: white;
+}
+.www{
+    margin-top: 142px;
+}
+.footer{
+    margin: 0 auto;
+    width: 1273px;
+    background-color: #272C3D;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav ul{
+    display: flex;
+    gap: 26px;
+    align-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+.nav ul li{
+    color: #FFFFFF;
+    align-content: center;
+    align-items: center;
+}
+.nav ul li:hover{
+    color: #FF9C28;
+    transition: all 1s;
+}
